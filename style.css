@@ -1,0 +1,43 @@
+body {
+    background-color: #538cc6;
+}
+
+nav {
+    text-transform: uppercase;
+    
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    font-style: italic;
+    background-color: #bfbfbf !important;
+
+}
+header{
+    height: 600px;
+    width: 100%;
+    background-image:url(flowers2.jpg); 
+    background-size: cover;
+    text-align: center;
+}
+header p{
+    font-style: italic;
+    color: white;
+}
+header h1{
+    color: white;
+}
+.services {
+    text-align: center;
+}
+.services i{
+        font-size: 30px;
+        padding: 25px 20px;
+        
+        border-radius: 50px;
+}
+        
