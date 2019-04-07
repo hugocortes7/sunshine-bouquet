@@ -21,8 +21,7 @@ nav {
 header {
     height: 600px;
     width: 100%;
-    background-image: url(flowers2.jpg);
-    background-size: cover;
+    background-image:url(flowers2.jpg);
     text-align: center;
 }
 
@@ -45,15 +44,27 @@ header h1 {
 
     border-radius: 50px;
 }
-
 .first { 
     height: 100px;
     border-radius: 50%;
-    width: 40%;
+    width: 70%;
 }
-
 .team img {
     height: 150px;
     border-radius: 70%;
     width: 200px;
+}
+footer{
+   background-color: ;
+   width: 500px ;
+}
+.second { 
+    height: 100px;
+    border-radius: 50%;
+    width: 70%;
+}
+.third { 
+    height: 100px;
+    border-radius: 50%;
+    width: 70%;
 }
