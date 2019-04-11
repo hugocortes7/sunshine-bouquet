@@ -1,10 +1,10 @@
 body {
-    background-color: #ffcccc;
+    background-color: tomato;
 }
 
 nav {
     text-transform: uppercase;
-
+    width:2000px;
 }
 
 .nav-link {
@@ -14,20 +14,22 @@ nav {
 
 .nav-link:hover {
     font-style: italic;
-    background-color: yellow!important;
+    background-color: red!important;
 
 }
 
 header {
     height: 600px;
-    width: 100%;
-    background-image:url(flowers2.jpg);
-    text-align: center;
+    width: 109%;
+    background-image:url(Flowers200.jpeg);
+    text-align: left;
+    color:white;
+    font-weight:Normal;
 }
 
 header p {
-    font-style: italic;
-    color: white;
+    font-family: George;
+    color: White;
 }
 
 header h1 {
@@ -41,9 +43,13 @@ header h1 {
 .services i {
     font-size: 30px;
     padding: 25px 20px;
+    color:Black;
 
     border-radius: 50px;
+
+
 }
+
 .first { 
     height: 100px;
     border-radius: 50%;
@@ -55,8 +61,9 @@ header h1 {
     width: 200px;
 }
 footer{
-   background-color: ;
-   width: 500px ;
+   background-color:tomato;
+   color: Black;
+   width: 800px ;
 }
 .second { 
     height: 100px;
@@ -64,6 +71,11 @@ footer{
     width: 70%;
 }
 .third { 
+    height: 100px;
+    border-radius: 50%;
+    width: 70%;
+}
+.fourth {
     height: 100px;
     border-radius: 50%;
     width: 70%;
