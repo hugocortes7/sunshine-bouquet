@@ -1,10 +1,13 @@
 body {
-    background-color: tomato;
+    background-color: #F9E79F;
+    height: 600px;
+    width: 50%;
 }
 
 nav {
     text-transform: uppercase;
-    width:2000px;
+    width:1410px;
+    
 }
 
 .nav-link {
@@ -14,17 +17,23 @@ nav {
 
 .nav-link:hover {
     font-style: italic;
-    background-color: red!important;
+    background-color: pink!important;
 
 }
 
 header {
-    height: 600px;
-    width: 109%;
-    background-image:url(Flowers200.jpeg);
     text-align: left;
+    background-image:url(.carousel-inner);
     color:white;
     font-weight:Normal;
+}
+.carousel-inner {
+    width:800px;
+    height:1200px;
+}
+
+.About Us  {
+    text-align:left;
 }
 
 header p {
@@ -40,38 +49,47 @@ header h1 {
     text-align: center;
 }
 
+.Gallery {
+ background-color:#76D7C4;
+ text-align:center;
+}
 .services i {
     font-size: 30px;
     padding: 25px 20px;
     color:Black;
-
     border-radius: 50px;
-
-
 }
-
+.pricing {
+     text-align: center;
+}
+.team {
+    text-align: center;
+}
+.staff {
+    text-align: center;
+}
 .first { 
-    height: 100px;
+    height: 200px;
     border-radius: 50%;
     width: 70%;
 }
-.team img {
+.team img{
     height: 150px;
     border-radius: 70%;
     width: 200px;
 }
 footer{
-   background-color:tomato;
+   background-color:pink;
    color: Black;
    width: 800px ;
 }
 .second { 
-    height: 100px;
+    height: 200px;
     border-radius: 50%;
     width: 70%;
 }
 .third { 
-    height: 100px;
+    height: 200px;
     border-radius: 50%;
     width: 70%;
 }
