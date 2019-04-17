@@ -1,12 +1,12 @@
 body {
     background-color: #F9E79F;
-    height: 600px;
-    width: 50%;
-}
+    height: 1000px;
+    width: 90%;
+    }
 
 nav {
     text-transform: uppercase;
-    width:1410px;
+    width:2000px;
     
 }
 
@@ -17,23 +17,23 @@ nav {
 
 .nav-link:hover {
     font-style: italic;
-    background-color: pink!important;
+    background-color: yellow!important;
 
 }
 
 header {
-    text-align: left;
+    text-align: center;
     background-image:url(.carousel-inner);
     color:white;
     font-weight:Normal;
 }
 .carousel-inner {
-    width:800px;
-    height:1200px;
+    width:2000px;
+    height:600px;
 }
 
-.About Us  {
-    text-align:left;
+.about us  {
+    text-align: center;
 }
 
 header p {
@@ -48,10 +48,8 @@ header h1 {
 .services {
     text-align: center;
 }
-
 .Gallery {
- background-color:#76D7C4;
- text-align:center;
+     text-align: center;
 }
 .services i {
     font-size: 30px;
@@ -79,7 +77,6 @@ header h1 {
     width: 200px;
 }
 footer{
-   background-color:pink;
    color: Black;
    width: 800px ;
 }
@@ -98,3 +95,11 @@ footer{
     border-radius: 50%;
     width: 70%;
 }
+.picture {
+     size: center;
+     border-radius: 25%;
+     width: 100%;
+}
+
+
+
